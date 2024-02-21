@@ -1,0 +1,18 @@
+input{
+    border: 2px solid #999;
+    outline: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 27px;
+}
+.delete button{
+    display: none;
+}
+ol li{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+ol li span{
+    cursor: pointer;
+}
